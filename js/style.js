@@ -53,3 +53,12 @@ window.addEventListener("scroll", function () {
     }
 
 });
+
+const scroolLink = document.querySelectorAll(".scroll-link");
+
+scroolLink.forEach(function (link) {
+    scroolLink.addEventListener("click", function (m) {
+        linkContainer.style.height = 0;
+    });
+});
+
